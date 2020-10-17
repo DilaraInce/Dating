@@ -1,8 +1,8 @@
 class Insterest {
-    constructor(hobby, age, country) {
-        this.hobby = hobby;
+    constructor(sport, age, city) {
+        this.sport = sport;
         this.age = age;
-        this.country = country;
+        this.city = city;
     }
 }
 
