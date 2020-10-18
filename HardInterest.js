@@ -1,6 +1,6 @@
 
 const Interest = require('./Model/Interest')
 
-let interestOne = new Interest("Sport", 27, "Denmark")
+let interestOne = new Interest("Basketball", 27, "Valby")
 
 module.exports = interestOne;

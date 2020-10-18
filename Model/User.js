@@ -1,7 +1,7 @@
 class User {
-    constructor(fname, lname, age, password, creditcard, image, interest) {
-        this.fname = fname;
-        this.lname = lname;
+    constructor(firstname, lastname, age, password, creditcard, image, interest) {
+        this.firstname = firstname;
+        this.lastname = lastname;
         this.age = age;
         this.password = password;
         this.creditcard = creditcard;

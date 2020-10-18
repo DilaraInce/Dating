@@ -11,12 +11,12 @@ let CreditCard2 = new CreditCard("Marie", 8378412074365943, 745, 11, 21)
 let Image1 = new Image ("selfie.com/profilepicture")
 let Image2 = new Image ("selfie.com/profilepicture")
 
-let Interest1 = new Interest("fotball", 25, "Denmark")
-let Interest2 = new Interest("swimming", 22, "Denmark")
+let Interest1 = new Interest("fotball", 25, "Copenhagen")
+let Interest2 = new Interest("swimming", 22, "Randers")
 
 let userArray = [] 
 let User1 = new User('Jacob', 'Hansen', '25', '98', CreditCard1, Image1, Interest1)
-let User2 = new User('Dilara', 'Jensen', '22', '11', CreditCard2, Image2, Interest2)
+let User2 = new User('Marie', 'Jensen', '22', '11', CreditCard2, Image2, Interest2)
 
 let paidUser1 = new PaymentUser(User1)
 let paidUser2 = new PaymentUser(User2)
